@@ -20,8 +20,28 @@ To write a Python class-based program that generates all even numbers between 20
 ---
 
 ## 💻 PROGRAM:
-Add Code Here
+```
+student_marks = {
+    "Alice": [85, 90, 78, 92, 88],
+    "Bob": [80, 70, 75, 85, 90],
+    "Charlie": [95, 88, 92, 91, 89],
+    "David": [70, 65, 80, 75, 60]
+}
+
+total_marks = {}
+
+for student, marks in student_marks.items():
+    total = sum(marks)
+    total_marks[student] = total
+
+topper = max(total_marks, key=total_marks.get)
+
+print("Total Marks of Students:", total_marks)
+print("Topper:", topper, "with", total_marks[topper], "marks")
+```
 
 ## OUTPUT:
+![446531993-f8e8d4ec-5912-424d-9daa-24244a215842](https://github.com/user-attachments/assets/9542fc7b-2a65-4130-a186-150be278533f)
 
 ## RESULT:
+Thus, the program is executed successfully
