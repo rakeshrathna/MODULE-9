@@ -40,8 +40,9 @@ print("Total Marks of Students:", total_marks)
 print("Topper:", topper, "with", total_marks[topper], "marks")
 ```
 
+
 ## OUTPUT:
-![446531993-f8e8d4ec-5912-424d-9daa-24244a215842](https://github.com/user-attachments/assets/9542fc7b-2a65-4130-a186-150be278533f)
+![446537679-e10234cd-f3bd-4ad5-81ba-fb0d5c3aca6e](https://github.com/user-attachments/assets/011841fe-58a5-421c-8730-beaec95d76d5)
 
 ## RESULT:
 Thus, the program is executed successfully
